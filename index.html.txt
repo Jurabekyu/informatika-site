@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информатика мұғалімі</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4ff;
+            color: #222;
+        }
+
+        header {
+            background: #173b75;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background: #2455a4;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            margin: 25px auto;
+            padding: 30px;
+            max-width: 850px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #173b75;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #173b75;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Информатика мұғалімінің сайты</h1>
+    <p>Білім • Технология • Болашақ</p>
+</header>
+
+<nav>
+    <a href="#about">Мен туралы</a>
+    <a href="#subject">Пәнім</a>
+    <a href="#lessons">Сабақтар</a>
+    <a href="#contact">Байланыс</a>
+</nav>
+
+<section id="about">
+    <h2>Мен туралы</h2>
+    <p>Сәлеметсіздер ме! Мен информатика пәнінің
+    болашақ мұғалімімін. Менің мақсатым –
+    оқушыларға заманауи технологияларды үйрету.</p>
+</section>
+
+<section id="subject">
+    <h2>Менің пәнім</h2>
+    <p>Информатика – ақпаратты өңдеу, сақтау,
+    компьютерлік технологиялар және бағдарламалау
+    негіздерін үйрететін пән.</p>
+</section>
+
+<section id="lessons">
+    <h2>Сабақ жоспарлары</h2>
+    <p>1. Компьютер құрылғылары</p>
+    <p>2. Алгоритм және бағдарламалау</p>
+    <p>3. HTML және CSS негіздері</p>
+    <p>4. Интернет және ақпараттық қауіпсіздік</p>
+</section>
+
+<section id="contact">
+    <h2>Байланыс</h2>
+    <p>Электрондық пошта: example@gmail.com</p>
+    <p>Веб-сайт: Информатика мұғалімінің жеке парақшасы</p>
+</section>
+
+<footer>
+    <p>© 2026 Информатика мұғалімінің сайты</p>
+</footer>
+
+</body>
+</html>
